@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Ctab">
+    <Package name="Manual">
+        <!-- Category strings -->
+        <Key ID="STR_ATAG_FieldManual_General_Category_Mod">
+            <English>Advanced Mod Template</English>
+        </Key>
+
+        <!-- Example Category -->
+        <Key ID="STR_ATAG_FieldManual_Hints_Category_Examples">
+            <English>Examples</English>
+        </Key>
+
+        <Key ID="STR_ATAG_FieldManual_Hints_Examples_Tags_Title">
+            <English>Tags</English>
+        </Key>
+        <Key ID="STR_ATAG_FieldManual_Hints_Examples_Tags_Short">
+            <English>All The Tags</English>
+        </Key>
+        <Key ID="STR_ATAG_FieldManual_Hints_Examples_Tags_Description">
+            <!--Note: Newlines and indentations in xml file have no effect ingame, they're just for readabilty-->
+            <English>Parameter Tags:%12
+            %12
+            %3 1%4: Small empty line:%1
+            %3 2%4: %2 Bulletpoint%12
+            %3 3 and 4%4: %3Highlight%4%12
+            %3 5%4: &lt;t %5&gt;Warning color&lt;/t&gt;%12
+            %3 6%4: &lt;t %6&gt;Blufor color&lt;/t&gt;%12
+            %3 7%4: &lt;t %7&gt;Opfor color&lt;/t&gt;%12
+            %3 8%4: &lt;t %8&gt;Independent Color:&lt;/t&gt;%12
+            %3 9%4: &lt;t %9&gt;Civilian color&lt;/t&gt;%12
+            %3 10%4: &lt;t %10&gt;Unknown color&lt;/t&gt;%12
+            %1
+            %3 Custom added as default args:%4
+            %1
+            %3 11%4: %11Indent%12
+            %3 12%4: %12Line break%12
+            %1
+            %3 Added as additional args:%4
+            %1
+            %3 13%4: %13
+            %3 14%4: %14
+            </English>
+        </Key>
+    </Package>
+</Project>

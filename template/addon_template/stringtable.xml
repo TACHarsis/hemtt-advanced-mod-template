@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ATAG"> <!-- has to be TAG-->
+    <Package name="Addon_Template"> <!-- has to be addon identifier-->
+        <Key ID="STR_ATAG_Addon_Template_Name_Mod"> <!-- pattern: STR_TAG_ModName_Identifier-->
+            <English>Advanced Mod Template</English>
+        </Key>
+        <Key ID="STR_ATAG_Addon_Template_Name_Addon">
+            <English>Addon Template</English>
+        </Key>
+    </Package>
+</Project>

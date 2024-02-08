@@ -15,3 +15,5 @@ class CfgPatches {
 
 // configs go here
 #include "CfgEventHandlers.hpp"
+#include "CfgHintCategories.hpp"
+#include "CfgHints.hpp"

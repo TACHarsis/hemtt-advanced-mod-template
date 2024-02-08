@@ -7,7 +7,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ATAG_main"};
+        requiredAddons[] = {"ATAG_main", "cba_settings"};
         authors[] = {"Your Name", "Other Author"}; // sub array of authors, considered for the specific addon, can be removed or left empty {}
         VERSION_CONFIG;
     };

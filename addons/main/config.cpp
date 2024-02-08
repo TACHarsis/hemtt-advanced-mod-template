@@ -9,7 +9,7 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {}; // It's good practice to include all your addons (except this one) in this list (obviously not done with the example)
         authors[] = {"Your Name", "Other Author"}; // sub array of authors, considered for the specific addon
-        author = "TAG Team"; // primary author name, either yours or your team's, considered for the whole mod
+        author = "ATAG Team"; // primary author name, either yours or your team's, considered for the whole mod
         VERSION_CONFIG;
     };
 };
@@ -17,10 +17,10 @@ class CfgPatches {
 // information on the whole mod (only needed once)
 class CfgMods {
     class PREFIX {
-        dir = "@MOD_NAME";
+        dir = "@ADVANCED_MOD_NAME";
         name = "My Cool Mod";
         
-        author = "TAG Team";                    // probably shown somewhere in the mods menu, but probably ignored by CBA/HEMTT
+        author = "ATAG Team";                    // probably shown somewhere in the mods menu, but probably ignored by CBA/HEMTT
 
         picture         = "title_co.paa";       // Picture displayed from the expansions menu. Optimal size is 2048x1024
         hideName        = "false";              // Hide the extension name in main menu and extension menu

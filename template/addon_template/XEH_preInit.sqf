@@ -6,3 +6,6 @@ PREP_RECOMPILE_START;
 PREP_RECOMPILE_END;
 
 ADDON = true;
+
+// included here instead of client or server preInit so they both have access to the settings and server can override settings
+#include "initSettings.inc.sqf"

@@ -1,6 +1,6 @@
 #define COMPONENT example_addon
 #define COMPONENT_BEAUTIFIED Example_Addon
-#include "\z\TAG\addons\main\script_mod.hpp"
+#include "\z\ATAG\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -12,4 +12,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_EXAMPLE_ADDON
 #endif
 
-#include "\z\TAG\addons\main\script_macros.hpp"
+#include "\z\ATAG\addons\main\script_macros.hpp"

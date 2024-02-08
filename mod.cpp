@@ -3,10 +3,12 @@ name = "My Cool Mod";
 
 author = "Your Name";
 
+// _co in the filename gives a hint to the engine that the image has no transparency
 picture         = "title_co.paa";           // Picture displayed from the expansions menu. Optimal size is 2048x1024
 hideName        = "false";                  // Hide the extension name
 hidePicture     = "false";                  // Hide the extension menu
 
+// _ca in the filename gives a hint to the engine that the image has transparency
 logoSmall       = "icon_64_ca.paa";         // Display next to the item added by the mod 64x64
 logo            = "icon_128_ca.paa";        // Logo displayed in the main menu 128x128
 logoOver        = "icon_128_highlight_ca.paa"; // When the mouse is over, in the main menu 128x128
@@ -18,10 +20,4 @@ action          = "https://www.ehre.to";    // Website URL, that can accessed fr
 actionName      = "today?";                 // label of button/tooltip in extension menu
 
 // Color used for DLC stripes and backgrounds (RGBA)
-dlcColor[] =
-{
-    1,
-    0.0,
-    0.86,
-    1
-};
+dlcColor[] = {1, 0.0, 0.86, 1};

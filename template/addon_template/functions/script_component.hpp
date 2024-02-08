@@ -1,1 +1,1 @@
-#include "\z\TAG\addons\addon_template\script_component.hpp"
+#include "\z\ATAG\addons\addon_template\script_component.hpp"

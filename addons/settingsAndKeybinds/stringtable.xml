@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file doesn't have to be included anywhere, the engine will find it and use it-->
+<Project name="ATAG"> <!-- has to be TAG-->
+    <Package name="SettingsAndKeybinds"> <!-- has to be addon identifier-->
+        <Key ID="STR_ATAG_SettingsAndKeybinds_Name_Mod"> <!-- pattern: STR_TAG_ModName_Identifier-->
+            <English>Advanced Mod Template</English>
+        </Key>
+        <Key ID="STR_ATAG_SettingsAndKeybinds_Name_Addon">
+            <English>Addon Template</English>
+        </Key>
+        <!-- used in init.settings.inc.sqf -->
+        <Key ID="STR_ATAG_SettingsAndKeybinds_Setting_Enable_Addon">
+            <English>Enable this Addon</English>
+        </Key>
+        <Key ID="STR_ATAG_SettingsAndKeybinds_Setting_Enable_Addon_Hint">
+            <English>Enable/disable this Addon</English>
+        </Key>
+        <!-- used in initKeybinds.inc.sqf-->
+        <Key ID="STR_ATAG_SettingsAndKeybinds_Keybind_Example_Key">
+            <English>The example key</English>
+        </Key>
+        <Key ID="STR_ATAG_SettingsAndKeybinds_Keybind_Example_Key_Hint">
+            <English>Exemplifies the key</English>
+        </Key>
+         <Key ID="STR_ATAG_SettingsAndKeybinds_Keybind_Addon_Enabled">
+            <English>Test if addon enabled</English>
+        </Key>
+        <Key ID="STR_ATAG_SettingsAndKeybinds_Keybind_Addon_Enabled_Hint">
+            <English>Just a simple crossover</English>
+        </Key>
+    </Package>
+</Project>
