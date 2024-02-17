@@ -34,13 +34,13 @@ class CfgHints {
         arguments[] = {DEFAULT_ARGUMENTS};
     };
     class Examples {
-        displayName = "Examples";
-        category = "ExamplesCategory";
+        displayName = CSTRING(Hints_Examples_Topic_Name);
+        category = QGVAR(Examples);
         logicalOrder = 0;
 
         class Tags: TestEntry {
             logicalOrder = 1;
-            arguments[] = {DEFAULT_ARGUMENTS, "'&lt;'", "'&gt;'"}; // adding 13th and 14th argument -> %12 and %13
+            arguments[] = {DEFAULT_ARGUMENTS, "'&lt;'", "'&gt;'"}; // adding 13th and 14th argument -> %13 and %14
             displayName = CSTRING(Hints_Examples_Tags_Title);
             displayNameShort = CSTRING(Hints_Examples_Tags_Short);
             description = CSTRING(Hints_Examples_Tags_Description);
