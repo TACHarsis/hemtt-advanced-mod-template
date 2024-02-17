@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ATAG">
+    <Package name="Modules">
+        <Key ID="STR_ATAG_Modules_Setting_Category_Mod">
+            <English>ATAG Modules</English>
+        </Key>
+
+        <Key ID="STR_ATAG_Modules_3den_Category_Name_Base">
+            <English>ATAG Uncategorized</English>
+        </Key>
+        <Key ID="STR_ATAG_Modules_3den_Category_Name_Example">
+            <English>ATAG Example</English>
+        </Key>
+    </Package>
+</Project>
