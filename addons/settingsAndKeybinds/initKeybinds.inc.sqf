@@ -60,7 +60,7 @@ private _addonCategory = LLSTRING(Name_Addon);
         if(GVAR(enableAddon)) then {
             systemChat QUOTE(ADDON enabled); // using QUOTE macro so we can make use of the
         } else {
-            systemChat QAUOTE(ADDON disabled); // ADDON macro, which would not work in double quotes
+            systemChat QUOTE(ADDON disabled); // ADDON macro, which would not work in double quotes
         };
     },
     "", // no key up code

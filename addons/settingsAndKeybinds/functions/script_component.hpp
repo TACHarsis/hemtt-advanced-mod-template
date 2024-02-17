@@ -1,1 +1,1 @@
-#include "\z\ATAG\addons\settingsAndkeybinds\script_component.hpp"
+#include "\z\ATAG\addons\settingsAndKeybinds\script_component.hpp"
